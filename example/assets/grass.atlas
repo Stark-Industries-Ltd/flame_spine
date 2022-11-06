@@ -1,0 +1,13 @@
+
+grass.png
+size: 32,163
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+img_grass
+  rotate: false
+  xy: 2, 2
+  size: 28, 159
+  orig: 28, 159
+  offset: 0, 0
+  index: -1
