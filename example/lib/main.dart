@@ -1,4 +1,3 @@
-import 'package:flame/experimental.dart';
 import 'package:flame/game.dart';
 import 'package:flame_spine/flame_spine.dart';
 import 'package:flutter/material.dart';
@@ -7,10 +6,7 @@ void main() {
   runApp(GameWidget(game: MyGame()));
 }
 
-class MyGame extends FlameGame
-    with HasTappableComponents, HasCollisionDetection {
-  late final RouterComponent router;
-
+class MyGame extends FlameGame {
   @override
   Future<void> onLoad() async {
     add(
